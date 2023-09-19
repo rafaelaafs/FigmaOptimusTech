@@ -1,0 +1,271 @@
+.cabecalho {
+    display: flex;
+    justify-content:space-around;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome_logo {
+    font-family: Inter;
+    color: rgb(58,64,78);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    font-family: Inter;
+}
+
+.txt_home {
+    color: rgb(102,112,133);
+}
+
+.txt_produto {
+    color: rgb(102,112,133)
+}
+
+.txt_recurso {
+    color: rgb(102,112,133)
+}
+
+.txt_sobre {
+    color: rgb(102,112,133);
+}
+
+.login {
+    display: flex;
+    gap: 25px;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+.txt_entrar {
+    color: rgb(102,112,133);
+    font-family: Inter;
+}
+
+.btn_cadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(142,36,36);
+    border-radius: 10px;
+    width: 120px;
+    height: 55px;
+}
+
+.txt_cadastrar {
+    color: white;
+    font-family: Inter;
+}
+
+.titulo {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txt_sobre_nos {
+    font-family: Inter;
+    color: rgb(142,36,36);
+    font-size: 80%;
+}
+
+.txt_titulo {
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.txt_subtitulo {
+    font-family: Inter;
+    color: rgb(102,112,133);
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.dados {
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.txt_dado_numero {
+    color: rgb(142,36,36);
+    font-weight: 900;
+    font-size: 400%;
+    margin-bottom: -20px;
+}
+
+.txt_dado_titulo {
+    font-weight: 500;
+}
+
+.txt_dado_subtitulo {
+    color: rgb(102,112,133);
+    font-weight: 300;
+}
+
+.talentos {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reuniao {
+    width: 1000px;
+    height: 300px;
+}
+
+.vagas {
+    display: flex;
+    justify-content: center;
+}
+
+.vaga_area {
+    font-family: Inter;
+    margin-bottom: -10px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+.titulo_vaga {
+    border: 1px solid rgb(234,236,240);
+    width: 100%;
+    border-radius: 20px;
+    font-family: Inter;
+}
+
+.dados_vaga {
+    display: flex;
+    gap: 40px;
+    color: rgb(159,166,178);
+    margin-left: 10px;
+}
+
+.todo {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.nome_vaga {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.horario_vaga {
+    font-weight: 500;
+}
+
+.salario_vaga {
+    font-weight: 500;
+}
+
+.opinioes {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloco {
+    width: 60%;
+    background-color: rgb(253,248,248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    font-family: Inter;
+}
+
+.opn_titulo {
+    color: rgb(142,36,36);
+}
+
+.opn_opiniao {
+    font-weight: 500;
+}
+
+.opn_profissao {
+    color: rgb(102,112,133);
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+.opn_nome {
+    font-weight: 400;
+}
+
+.cliente {
+    height: 70px;
+    width: 70px;
+}
+
+.bloco_final {
+    width: 100%;
+    background-color: rgb(253,248,248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    font-family: Inter;
+    margin-top: 100px;
+}
+
+.seja_primeiro {
+    color: rgb(102,112,133);
+    font-weight: 400;
+}
+
+.cadastro {
+    display: flex;
+    gap: 25px;
+}
+
+.email {
+    border: 1px solid rgb(234,236,240);
+    font-weight: 300;
+    height: 50px;
+    width: 350px;
+    color:rgb(102,112,133);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.cadasrar {
+    font-weight: 300;
+    height: 50px;
+    width: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(142,36,36);
+
+}
+
+.direitos {
+    font-size: 70%;
+    color: rgb(152,162,179);
+}
